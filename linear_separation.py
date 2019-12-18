@@ -25,3 +25,4 @@ border_v = - (t * w[0] + w[2]) / w[1]
 ax.scatter(border_h, border_v, marker='.', c='black', s=2)
 ax.scatter(data[y==1,0], data[y==1,1], marker='*', c='blue')
 ax.scatter(data[y==0,0], data[y==0,1], marker='*', c='red')
+
